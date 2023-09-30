@@ -1,0 +1,244 @@
+body {
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.logo {
+    background: linear-gradient(90deg, rgb(107, 102, 209) 0%, rgb(12, 12, 248) 35%, rgb(72, 189, 213) 100%);
+    position: relative;
+    padding: 20px 0;
+}
+
+header:before,
+header:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #0000ff, rgb(236, 0, 0), #b806ffd2, rgb(63, 255, 4), rgb(255, 25, 155));
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background-size: 400%;
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.principal h1 {
+    position: absolute;
+    font-size: 50px;
+    left: 30%;
+    padding-top: 2%;
+}
+
+.principal h2 {
+    padding-top: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.principal p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+table {
+    display: block;
+    margin: 0px auto;
+    border: 1px solidable;
+    padding: 100px;
+    padding-left: 25%;
+}
+
+tr {
+    text-align: center;
+    border: 1px solid;
+    height: 40px;
+    color: #000000;
+}
+
+td {
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin: 5px;
+    top: 900px;
+    user-select: none;
+    border: 1px solid
+}
+
+td:hover {
+    background-color: rgb(131, 131, 131);
+    color: azure;
+    font-size: 22px;
+}
+
+.principal .reflexao{
+    display: block;
+    margin: 0px auto;
+    height: 350px;
+}
+
+.grif{
+    display: block;
+    margin: 0px auto;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.link {
+    color: blue;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: red;
+    font-size: 22px;
+}
+
+#foto {
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    left: 55px;
+    padding: 45px;
+}
+form {
+    margin: 40px 0;
+    text-align: center;
+}
+
+form label
+{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 275px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.enviar {
+    display: block;
+    width: 50%;
+    padding: 15px 25px;
+    margin: 0 275px 20px;
+    background: #174978d2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #1861a5d2;
+    transform: scale(1.2);
+}
+
+.voltar-inicio {
+    position: fixed;
+    right: 0;
+    top: 85%;
+    width: 90px;
+    margin-top: -2.5em;
+    margin-right: 1rem;
+    padding: 1rem;
+    background: linear-gradient(90deg, rgb(107, 102, 209) 0%, rgb(12, 12, 248) 35%, rgb(72, 189, 213) 100%);
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: black;
+    font-size: 25px;
+
+}
+
+.voltar-inicio:hover {
+    border-color: #174978d2;
+}
+
+.voltar-inicio:active {
+    border-color: gray;
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(107, 102, 209) 0%, rgb(12, 12, 248) 35%, rgb(72, 189, 213) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: #000000;
+    text-align: center;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.btn-group{
+    position: absolute;
+    left: 80%;
+    top: 60%;
+}
+
+@media screen and (max-width: 480px) {
+    .principal
+    form{
+        margin: 40px 0;
+    }
+    .logo{
+        width: 940px;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-indent: 30px;
+        text-align: justify;
+        margin: 5px;
+    }
+    nav{
+        position: static;
+    }
+    footer{
+        width: 940px;
+    }
+   
+}
+
