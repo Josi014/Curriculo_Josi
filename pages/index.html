@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Meu currículo</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/styleindex.css">
+</head>
+
+<body>
+    <header class="logo">
+        <div id="voltar-inicio"></div>
+        <section class="principal">
+            <h1>Josiéli de Souza De Ramos</h1>
+        </section>
+        <img id="foto" src="../images/foto2.jpg">
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger">Menu</button>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <nav>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#trajetoria">Trajetória</a></li>
+                    <li><a href="#objetivo">Objetivos</a></li>
+                    <li><a href="#comentario">Comente</a></li>
+                    <li><a href="projeto.html">Projetos</a></li>
+                </ul>
+            </nav>
+            <ul>
+                <li class="voltar-inicio"><a href="#voltar-inicio">inicio</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+            <h2>Dados pessoais</h2>
+            <table>
+                <tr>
+                    <td>Idade:</td>
+                    <td>20 anos</td>
+                </tr>
+                <tr>
+                    <td>Data de nascimento:</td>
+                    <td>14/02/2003</td>
+                </tr>
+                <tr>
+                    <td>Endereço:</td>
+                    <td>Avenida Miguelzinho Lima, cep: 99036-050, 597</td>
+                </tr>
+                <tr>
+                    <td>Complemento: </td>
+                    <td>casa 13.</td>
+                </tr>
+                <tr>
+                    <td>Número:</td>
+                    <td>(54) 9 8158-4658</td>
+                </tr>
+                <tr>
+                    <td>Linkdln:</td>
+                    <td>
+                        <a
+                            href="https://www.Linkdln.com/in/josieli-de-souza-de-ramos-dev">https://www.Linkdln.com/in/josieli-de-souza-de-ramos-dev</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Git-Hub:</td>
+                    <td><a href="https://github.com/Josi014">https://github.com/Josi014</a></td>
+                </tr>
+            </table>
+            <div id="trajetoria">
+                <h2>Trajetória</h2>
+                <p>Minha Trajetóriana área de tecnologia deu-se ínicio a partir da curiosidade aguçada, e da certeza de que esse seria o futuro. Sou estudante de programação e afins, estou cursando ciência da computação, mas já carrego uma estensa bagagem de aprendizagem. Entre estes conhecimentos estão, front-end(JAVASCRIPT, HTML E CSS), e back-end(JAVA, C++ E PYTHON). Meu objetivo é me tornar uma programadora capacitada, focada e com responsabilidade. Tenho facilidade em aprender coisas novas e estou disposta a aprender caso necessário,para que assim possa trilhar meu caminho acadêmico e profissional, assim contribuindo e aprendendo.
+                </p>
+            </div>
+            <div>
+                <img class="reflexao" src="../images/reflexao.png">
+            </div>
+            <div id="objetivo">
+                <h2>Objetivos</h2>
+                <p>Meus principais objetivos são, trabalhar com base em meus conhecimentos, e aprender novos. Ter empatia e trabalhar em equipe, utilizar da comunicação como sendo a chave para resolução de problemas, avançodos projetos. Participar ativamente de projetos e atividades do local de trabalho. E entregar as tarefas atribuidas com antecendência, excelência, responsabilidade e profissionalismo, assim contribuindo para a empresa. </p>
+            </div>
+            <div>
+                <img class="grif" src="../images/img.gif">
+            </div>
+
+        </section>
+
+        <form>
+            <label for="comentario">
+                <h2 class="principal">Comentário</h2>
+            </label>
+            <textarea cols="40" rows="10" id="comentario" class="input-padrao" placeholder="Digite aqui"></textarea>
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+    </main>
+    <footer>
+        <p class="Copyright">&copy;Copyright ifsul - 2023</p>
+    </footer>
+</body>
+
+</html>
