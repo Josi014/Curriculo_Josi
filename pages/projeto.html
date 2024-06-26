@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meus projetos</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/projeto.css">
+    <link rel="stylesheet" href="../style/styleindex.css">
+</head>
+
+<body>
+    <header class="logo">
+        <div id="voltar-inicio"></div>
+        <section class="principal">
+            <h1>Josiéli de Souza De Ramos</h1>
+        </section>
+        <img id="foto" src="../images/foto2.jpg">
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger">Menu</button>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            <nav>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <ul>
+                <li class="voltar-inicio"><a href="#voltar-inicio">inicio</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo">Projetos</h2>
+            <figure id="projetos">
+                <span class="transicaoDaImagem next"></span>
+                <span class="transicaoDaImagem prev"></span>
+
+                <div id="slider">
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/jogoSnake.png"
+                            alt="Jogo Snake" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/jogoSnake1.png"
+                            alt="Jogo Snake fase pontos dourados" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/jogoSnake2.png"
+                            alt="Jogo Snake fase maça envenenada" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/jogo-pong.jpeg"
+                            alt="Jogo Pong" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/sistemaIPVA.png"
+                            alt="Sistema IPVA" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/loja.png"
+                            alt="Loja demo, Java" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/loja1.png"
+                            alt="Loja demo, Java" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/barbeariaAlura.jpeg"
+                            alt="Site Barbearia Alura" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/sistemaVenda.png"
+                            alt="Sistema venda, orientação a objetos Java" /></a>
+                    <a href="#" class="transicaoDaImagem"><img src="../images/projetos/sistemaVenda1.png"
+                            alt="Sistema venda, orientação a objetos Java" /></a>
+                </div>
+
+                <figcaption></figcaption>
+            </figure>
+
+        </section>
+        <script src="../js/projetos.js"></script>
+    </main>
+
+    <footer>
+        <p class="Copyright">&copy;Copyright ifsul- 2023</p>
+    </footer>
+
+</body>
+
+</html>
